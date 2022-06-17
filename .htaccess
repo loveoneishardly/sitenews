@@ -1,0 +1,4 @@
+DirectoryIndex goload.php?check=_home
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1load.php [NC,L]
